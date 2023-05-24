@@ -3,13 +3,6 @@ body {
     color: white;
 }
 
-.bvg {
-    position: absolute;
-    color: white;
-    margin-left: 1%;
-    font-family: sans-serif;
-}
-
 .mfp {
     max-width: 600px;
     margin: auto;
