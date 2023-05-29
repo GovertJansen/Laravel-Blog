@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="/welcome.css">
 </head>
 
 <body>
-    <article class="mfp">
+    <article>
         <?= $post; ?>
     </article>
 
-    <a class="goback" href="/">Go back</a>
+    <a href="/">Go back</a>
 
 </body>
 
