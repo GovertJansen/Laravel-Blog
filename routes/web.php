@@ -14,7 +14,10 @@ use App\Models\Post;
 */
 
 Route::get('/', function () {
-    return view('posts');
+    $posts = post::all();
+    return view('posts', [
+        'post' => $posts
+    ]);
 });
 
 Route::get('post/{post}', function ($slug) {
